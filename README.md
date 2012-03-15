@@ -1,6 +1,8 @@
 # kippt-firefox
 
-This is Kippt.com's official Firefox add-on. It's licensed under MIT and we'll accept improvement in pull-requests.
+This is Kippt.com's official Firefox add-on. It's licensed under MIT and we'll accept improvements in pull-requests.
+
+Originally created by @thierrylemoulec
 
 ## TODO
 
