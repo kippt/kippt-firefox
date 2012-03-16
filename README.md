@@ -10,5 +10,6 @@ Originally created by @thierrylemoulec
 
 ## TODO
 
+* Add content scripts and events to close the extension after a successful save
 * Add keyboard shortcut (e.g. cmd+shift+k)
 * Add context menu
