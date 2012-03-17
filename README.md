@@ -8,6 +8,10 @@ The extension was build using [Firefox Add-on SDK](https://addons.mozilla.org/en
 
 Originally created by @thierrylemoulec
 
+## Install
+
+You can install the extension manually or from the [Mozilla Addons](https://addons.mozilla.org/en-US/firefox/addon/kippt/)
+
 ## TODO
 
 * Add content scripts and events to close the extension after a successful save
