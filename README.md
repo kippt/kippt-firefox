@@ -14,6 +14,5 @@ You can install the extension manually or from the [Mozilla Addons](https://addo
 
 ## TODO
 
-* Add content scripts and events to close the extension after a successful save
 * Add keyboard shortcut (e.g. cmd+shift+k)
 * Add context menu
