@@ -5,5 +5,7 @@
     "version": "1.0", 
     "fullName": "Kippt", 
     "id": "jid1-h4GuLmK3FDEnAg", 
-    "description": "Kippt's Firefox add-on - http://kippt.com"
+    "description": "Kippt's Firefox add-on - http://kippt.com",
+    "icon": "data/icon64.png",
+    "icon64": "data/icon64.png"
 }
