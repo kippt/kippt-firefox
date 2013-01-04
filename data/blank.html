@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        html, body {
+            min-width: 420px;
+            min-height: 240px;
+            max-height: 240px;
+            margin: 0px;
+
+            background: #FFF;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+        
+        #spinner {
+            position: absolute;
+            top: 100px;
+            left: 225px;
+        }
+    </style>
+</head>
+<body>
+    <div id="spinner">&nbsp;</div>
+    
+    <script type="text/javascript" src="spin.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        // Init spinner
+        var opts = {
+            lines: 12,
+            length: 7,
+            width: 4,
+            radius: 10,
+            color: '#999',
+            speed: 1,
+            trail: 60,
+            shadow: false
+        };
+        var spinner = new Spinner(opts).spin();
+        var spinnerElem = document.getElementById('spinner');
+        spinnerElem.appendChild(spinner.el);
+    </script>
+</body>
+</html>
