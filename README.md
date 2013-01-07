@@ -8,11 +8,21 @@ The extension was build using [Firefox Add-on SDK](https://addons.mozilla.org/en
 
 Originally created by @thierrylemoulec
 
-## Install
+## Dev notes
 
-You can install the extension manually or from the [Mozilla Addons](https://addons.mozilla.org/en-US/firefox/addon/kippt/)
+To show the error log, use keyboard shortcut Cmd+Shift+J
 
-## TODO
+Update.rdf related links:
 
-* Add keyboard shortcut (e.g. cmd+shift+k)
-* Add context menu
+    https://developer.mozilla.org/en-US/docs/Building_an_Extension
+    https://developer.mozilla.org/en-US/docs/Extension_Versioning,_Update_and_Compatibility
+
+## Distribution
+
+This extension is distributed via Kippt, not Mozilla's add-on site. Distributable url is:
+
+    http://addons.kippt.com/firefox/kippt.xpi
+
+To compile the extension with correct update links, use the following command:
+
+    cfx xpi --update-link https://s3.amazonaws.com/addons.kippt.com/firefox/kippt.xpi --update-url https://s3.amazonaws.com/addons.kippt.com/firefox/kippt.update.rdf
